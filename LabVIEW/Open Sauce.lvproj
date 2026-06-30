@@ -12,6 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Countdown.vi" Type="VI" URL="../Sub-VIs/Countdown.vi"/>
 		<Item Name="Labview Sound Receive Tester.vi" Type="VI" URL="../../Sound Receiver/Labview Sound Receive Tester.vi"/>
 		<Item Name="Receiver HMI Main.vi" Type="VI" URL="../Receiver HMI Main.vi"/>
 		<Item Name="Sound Transmitter.vi" Type="VI" URL="../../Sound Receiver/Sound Transmitter.vi"/>
@@ -34,7 +35,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{10561AD1-30C7-48E9-A0AC-AC0BCA5FC42E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Receiver HMI Main/Application.exe</Property>
@@ -75,7 +76,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9E2B4813-9D6C-4BE1-BFF8-A9C0BAC2908D}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Transmitter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Transmitter HMI Main/Transmitter.exe</Property>

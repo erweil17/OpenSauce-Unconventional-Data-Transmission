@@ -3,8 +3,8 @@
 #include <RotaryEncoder.h>
 
 
-#define PIN_IN1 2
-#define PIN_IN2 3
+#define PIN_IN1 3
+#define PIN_IN2 4
 
 uint8_t fifoByte = 0;
 uint8_t bitCount = 0;
